@@ -1,0 +1,219 @@
+.tag{
+    background: rgba(246, 93, 37, 0.1);
+    border-radius: 15px;
+    color: $orange;
+    padding: 4px 20px;
+    
+    &.fonte{
+        background: #F7F7F9;
+        color: $gray;
+        &:hover{
+            color: $orange;
+            background: rgba(246, 93, 37, 0.1);
+            transition: 1s;
+        } 
+    }
+    &.info{
+        background: #F7F7F9;
+        color: $gray;
+        border-radius: 5px;
+        &:hover{
+            color: $orange;
+            background: rgba(246, 93, 37, 0.1);
+            transition: 1s;
+        } 
+    }
+}
+
+.card{
+    height: 500px;
+    border-radius: 10px;
+    border: 0;
+    &:hover{
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
+    }
+
+    .card-top{
+        width: 100%;
+        height: 180px;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+    .card-bottom{
+        padding: 30px;
+    }
+}
+
+.autor{
+    h4{
+        color: $orange;
+        margin-bottom: 0;
+    }
+    .infos{
+        margin-left: 40px;
+    }
+    .tag{
+        margin: 8px 0;
+    }
+    .img-perfil{
+        max-width: 123px;
+    }
+    .links-autor{
+        ul{
+            display: flex;
+            flex-direction: row;
+
+            li{
+                width: 45px;
+                height: 45px;
+                background: #F7F7F9;
+                border-radius: 4px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                &:hover{
+                    color: $orange;
+                    background-color: rgba(246, 93, 37, 0.2);
+                }
+            }
+            a{
+                color: $gray;
+                &:not(:first-child){
+                    margin-left: 16px;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 991px){
+        .img-perfil{
+            margin-bottom: 20px;
+        }
+        .infos{
+            margin-left: 0;
+        }
+    }
+}
+
+.newsletter{
+    margin: 80px 0 60px 0;
+
+    .container{
+        .bloco-newsletter{
+            background-color: #101116;
+            border-radius: 20px;
+            height: 260px;
+
+            .texto{
+                padding: 60px 0 0 95px;
+    
+                h4{
+                    color: $orange;
+                }
+                p{
+                    color: $white;
+                }
+            }
+            .woman{
+                position: relative;
+                bottom: 48px;
+            }
+    
+            form{
+                display: flex;
+                flex-direction: column;
+                margin-top: 80px;
+    
+                input{
+                    width: 363px;
+                    height: 40px;
+                    background-color: $white;
+                    border-radius: 5px;
+                    border: 0;
+                    margin-bottom: 14px;
+                    padding-left: 18px;
+                }
+                .btn{
+                    width: 363px;
+                    color: $white;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 1200px){
+        .container{
+            .bloco-newsletter{
+                .texto{
+                    padding: 55px 0 0 40px;
+                }
+                .woman{
+                    width: 220px;
+                    height: auto;
+                    top: 18px;
+                }
+                form{
+
+                    input{
+                        width: 90%;
+                        height: 40px;
+                    }
+                    .btn{
+                        width:90%;
+                        color: $white;
+                    }
+                }
+            }
+        }
+    }
+    @media (max-width: 991px){
+        .container{
+            .bloco-newsletter{
+                border-radius: 10px;
+
+                .texto{
+                    padding: 55px 0 0 50px;
+                }
+                .woman{
+                    display: none;
+                }
+                form{
+                    margin-top: 80px;
+
+                    input{
+                        width: 90%;
+                    }
+                    .btn{
+                        width:90%;
+                    }
+                }
+            }
+        }
+    }
+
+    @media (max-width: 768px){
+
+        .container{
+            text-align: center;
+
+            .bloco-newsletter{
+                height: auto;
+                border-radius: 10px;
+
+                .texto{
+                    padding: 40px 20px 0 20px;
+                }
+                form{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    margin-top: 10px;
+                    padding-bottom: 40px;
+
+                }
+            }
+        }
+    }
+}
+

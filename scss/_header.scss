@@ -1,0 +1,10 @@
+header{
+    border-bottom: 1px solid #E6E6E6;
+
+    @media (max-width: 991px){
+        
+        .btn-menu{
+            margin: 10px 0 0 0 !important;
+        }
+    }
+}

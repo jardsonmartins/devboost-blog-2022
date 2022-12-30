@@ -1,0 +1,12 @@
+.sidebar{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 30px; 
+
+    .banner-sidebar{
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        margin-bottom: 23px;
+    }
+}
