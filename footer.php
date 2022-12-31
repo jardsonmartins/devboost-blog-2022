@@ -28,7 +28,7 @@
                         <h6 class="fale-conosco">Fale conosco</h6>
                         <ul>
                             <li><a href="https://api.whatsapp.com/send?phone=5585992364455&text=Ol%C3%A1%2C%20tenho%20d%C3%BAvida%20sobre" target="_blank"><i class="fa-brands fa-whatsapp me-2"></i>Whatsapp</a></li>
-                            <li><a href="mailto:contato@devboost.com.br" target="_blank"><i class="fa-regular fa-envelope me-2"></i>Suporte@devboost.com.br</a></li>
+                            <li><a href="mailto:contato@devboost.com.br" target="_blank"><i class="fa-regular fa-envelope me-2"></i>Contato@devboost.com.br</a></li>
                         </ul>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-12">
@@ -46,7 +46,7 @@
             <hr>
             <div class="footer-bottom">
                 <div class="texto">
-                    <p>2022 © DevBoost - Todos os direitos reservados. </p>
+                    <p><?php echo date('Y');?> © DevBoost - Todos os direitos reservados. </p>
                 </div>
                 <div class="icons">
                     <ul>
