@@ -44,7 +44,7 @@
                                             ?>
                                             
                                             <a href="<?php the_permalink(); ?>"><h4 class="mt-3"><?php the_title(); ?></h3></a>
-                                            <a href="<?php the_permalink(); ?>"><p><?php the_content();?></p></a>
+                                            <a href="<?php the_permalink(); ?>"><p><?php short_content(110);?></p></a>
                                             <a href="<?php the_permalink(); ?>">Saiba mais</a>
                                         </div>
                                     </div>

@@ -132,10 +132,7 @@
                                 <img src=" <?php echo get_template_directory_uri()?>/img/woman.png" alt="" class="woman">
                             </div>
                             <div class="col-lg-5 col-md-6 col-sm-12">
-                                <form action="form-newslatter">
-                                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Email">
-                                    <button class="btn btn-primary">Inscreva-se</button>
-                                </form>
+                                <?php echo do_shortcode('[contact-form-7 id="93" title="Newsletter"]') ?>
                             </div>
                         </div>
                     </div>
